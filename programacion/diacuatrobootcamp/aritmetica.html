@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numeros</title>
+</head>
+<body>
+    <h2>Escribe un numero</h2>
+    <form action="funciones.php"method= "POST">
+        <label for="numero">Numero1</label>
+        <input type="number" name = "numero1" id="numero1" required>
+        <label for="numero">Numero2</label>
+        <input type="number" name = "numero2" id="numero2" required>
+
+        <select name="trabajo" id="resultado" required>
+        <option value="">Selecciona tu operacion</option>
+        <option value="Administrador">Sumar</option>
+        <option value="Editor">Restar</option>
+        <option value="Visor">Dividir</option>
+         <option value="Visor">Multiplicar</option>
+          </select>
+        <button type="submit">Verificar</button>
+    </form>
+</body>
+</head>
